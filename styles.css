@@ -25,6 +25,8 @@ a {
 
 .logo {
   width: 100%;
+  text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .services {
@@ -155,7 +157,7 @@ a {
   height: 50%;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
   .header {
     padding: 30px 20px 0 20px;
   }
