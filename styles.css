@@ -12,6 +12,7 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--background);
+  min-width: 320px;
 }
 p,
 a {
