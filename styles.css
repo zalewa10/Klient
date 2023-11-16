@@ -12,16 +12,8 @@
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--background);
-<<<<<<< HEAD
   max-width: 1440px;
   margin: auto;
-=======
-  margin: 0;
-  padding: 0;
- /* max-width:1440px;
-  margin: auto;*/
-  
->>>>>>> 15732894fbd57b209ba22a6c920a0e4be8bcca1b
 }
 p,
 a {
@@ -166,15 +158,6 @@ a {
 .footer img {
   height: 50%;
 }
-<<<<<<< HEAD
-=======
-
-
-@media screen and (min-width: 2560px) {
-  .header {
-    padding: 1.5vw 2.5vw 0 2.5vw;
-  }
->>>>>>> 15732894fbd57b209ba22a6c920a0e4be8bcca1b
 
 @media screen and (max-width: 1000px) {
   .header {
