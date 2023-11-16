@@ -9,15 +9,19 @@
   --text: #222222;
   --background: #f8f8f8;
 }
-
 body {
   font-family: "Inter", sans-serif;
   background-color: var(--background);
+<<<<<<< HEAD
+  max-width: 1440px;
+  margin: auto;
+=======
   margin: 0;
   padding: 0;
  /* max-width:1440px;
   margin: auto;*/
   
+>>>>>>> 15732894fbd57b209ba22a6c920a0e4be8bcca1b
 }
 p,
 a {
@@ -32,7 +36,6 @@ a {
 .logo {
   width: 100%;
   text-decoration: underline;
-  font-size: 1.1vw;
   text-underline-offset: 2px;
 }
 
@@ -40,33 +43,33 @@ a {
   padding: 80px 90px 0 90px;
   display: flex;
   flex-direction: column;
-  gap: 3vw;
+  gap: 40px;
 }
 
 .top {
   display: flex;
   flex-direction: column;
   align-items: start;
-  gap: 1vw;
+  gap: 12px;
   width: 100%;
 }
 
 .top-sub {
   font-weight: 500;
-  font-size: 1.2vw;
+  font-size: 1.1rem;
   line-height: 120%;
 }
 
 .top-title {
   font-weight: 500;
-  font-size: 5vw;
+  font-size: 4.5rem;
   letter-spacing: -2px;
   line-height: 120%;
 }
 
 .top-text {
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 0.92rem;
   line-height: 160%;
 }
 
@@ -74,8 +77,8 @@ a {
   display: grid;
   grid-template-columns: auto auto;
   grid-row: auto auto;
-  grid-column-gap: 3.3vw;
-  grid-row-gap: 3.3vw;
+  grid-column-gap: 45px;
+  grid-row-gap: 45px;
 }
 
 .card {
@@ -91,14 +94,14 @@ a {
 
 .card-title {
   font-weight: 500;
-  font-size: 1.9vw;
+  font-size: 1.7rem;
   line-height: 120%;
   letter-spacing: -2px;
 }
 
 .card-text {
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 0.9em;
   line-height: 160%;
 }
 
@@ -120,16 +123,15 @@ a {
   flex-direction: column;
   gap: 20px;
 }
-
 .left-title {
   font-weight: 500;
-  font-size: 3.3vw;
+  font-size: 3rem;
   line-height: 120%;
 }
 
 .left-text {
   font-weight: 400;
-  font-size: 1vw;
+  font-size: 0.9rem;
   line-height: 160%;
 }
 
@@ -145,7 +147,7 @@ a {
 .left-btn {
   color: var(--text);
   font-weight: 600;
-  font-size: 1.1vw;
+  font-size: 0.9rem;
   line-height: 120%;
   text-decoration: underline;
   text-underline-offset: 2px;
@@ -158,86 +160,22 @@ a {
 }
 
 .ending {
-  font-size: 1vw;
+  font-size: 0.9rem;
 }
 
 .footer img {
   height: 50%;
 }
+<<<<<<< HEAD
+=======
 
 
 @media screen and (min-width: 2560px) {
   .header {
     padding: 1.5vw 2.5vw 0 2.5vw;
   }
+>>>>>>> 15732894fbd57b209ba22a6c920a0e4be8bcca1b
 
-  .logo {
-    font-size: 1vw;
-  }
-
-  .services {
-    padding: 2vw 2.5vw 0 2.5vw;
-  }
-
-  .top-title {
-    font-size: 5vw;
-  }
-
-  .top-text {
-    font-size: 1.5vw;
-  }
-
-  .bottom {
-    grid-column-gap: 1.65vw;
-    grid-row-gap: 1.65vw;
-  }
-
-  .card {
-    border-radius: 1.95vw;
-    padding: 1.95vw;
-  }
-
-  .card-title {
-    font-size: 1.9vw;
-  }
-
-  .card-text {
-    font-size: 1vw;
-  }
-
-  .flex-container {
-    padding: 5vw 2.5vw 0 2.5vw;
-    gap: 1vw;
-  }
-
-  .left-title {
-    font-size: 3.3vw;
-  }
-
-  .left-text {
-    font-size: 1vw;
-  }
-
-  .right img {
-    border-radius: 1.95vw;
-  }
-
-  .left-btn {
-    font-size: 1.2vw;
-  }
-
-  .footer {
-    padding: 2vw 2.5vw;
-    gap: 0.5vw;
-  }
-
-  .ending {
-    font-size: 0.9vw;
-  }
-  .footer img {
-    height: 100%;
-  }
-}
 @media screen and (max-width: 1000px) {
   .header {
     padding: 30px 20px 0 20px;
@@ -311,80 +249,3 @@ a {
     height: 10px;
   }
 }
-
-/* @media screen and (min-width: 2000px) {
-  body {
-    max-width: 100%;
-    margin: 0;
-  }
-
-  .header {
-    padding: 4vw 5%;
-  }
-
-  .services {
-    padding: 5vw 5%;
-  }
-  .top-sub {
-    font-size: 1vw;
-  }
-  .top-title {
-    font-size: 4vw;
-  }
-
-  .top-text {
-    font-size: 1.2vw;
-  }
-
-  .bottom {
-    grid-column-gap: 5%;
-    grid-row-gap: 5%;
-  }
-
-  .card {
-    padding: 5%;
-  }
-
-  .card-title {
-    font-size: 2.2vw;
-  }
-
-  .card-text {
-    font-size: 1.2vw;
-  }
-
-  .flex-container {
-    padding: 5%;
-  }
-
-  .left {
-    width: 30%;
-  }
-  .left-title {
-    font-size: 4vw;
-  }
-  .right {
-    width: 70%;
-  }
-
-  .right img {
-    width: 100%;
-    border-radius: 12px;
-  }
-
-  .left-btn {
-    font-size: 1.5vw;
-  }
-
-  .footer {
-    padding: 5vw 5%;
-  }
-
-  .ending {
-    font-size: 1.5vw;
-  }
-
-  .footer img {
-    max-height: 10vw;
-  }
-} */
